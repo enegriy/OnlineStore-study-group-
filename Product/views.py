@@ -17,8 +17,15 @@ def create(request):
         Product1.name = request.POST.get("name")
         Product1.price = request.POST.get("price")
         Product1.Description = request.POST.get("Description")
-        Product1.save()
-    return HttpResponseRedirect("/")
+        if Product1.name =='':
+            return HttpResponseNotFound("<h2>Не все поля заполнены!!!</h2>")
+        elif Product1.price == '':
+            return HttpResponseNotFound("<h2>Не все поля заполнены!!!</h2>")
+        elif Product1.Description == '':
+            return HttpResponseNotFound("<h2>Не все поля заполнены!!!</h2>")
+        else:
+            Product1.save()
+        return HttpResponseRedirect("/")
 
 
 def edit(request, id):
