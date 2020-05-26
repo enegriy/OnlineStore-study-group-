@@ -27,7 +27,6 @@ def create(request):
             Product1.save()
         return HttpResponseRedirect("/")
 
-
 def edit(request, id):
     try:
         Product1 = Product.objects.get(id=id)
