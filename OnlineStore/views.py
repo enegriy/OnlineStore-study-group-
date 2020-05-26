@@ -5,11 +5,6 @@ from django.urls import reverse
 from django.contrib.auth.models import User
 
 
-
-
-
-
-
 class LoginView(TemplateView):
     template_name = "template/registration/login.html"
 
@@ -25,7 +20,6 @@ class LoginView(TemplateView):
             else:
                 context['error'] = "Логин или пароль неправильные"
         return render(request, self.template_name, context)
-
 
 
 class ProfilePage(TemplateView):
@@ -47,3 +41,7 @@ class RegisterView(TemplateView):
                 return redirect(reverse("login"))
 
         return render(request, self.template_name)
+
+
+def index(request):
+    return render(request, "index.html")

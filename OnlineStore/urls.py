@@ -15,14 +15,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from OnlineStore import views
+from Product import views as tru
 from OnlineStore.views import LoginView
 from OnlineStore.views import ProfilePage, RegisterView
 
-
-urlpatterns = [
+urlpatterns = {
     path('admin/', admin.site.urls),
     path('accounts/login', LoginView.as_view(), name="login"),
     path('accounts/profile', ProfilePage.as_view(), name="profile"),
-    path('accounts/register', RegisterView.as_view(), name="register")
+    path('accounts/register', RegisterView.as_view(), name="register"),
+    path('', views.index),
+    path('Product/', tru.Goods),
+    path('Product/create/', tru.create),
+    path('Product/edit/<int:id>/', tru.edit),
+    path('Product/delete/<int:id>/', tru.delete),
 
-]
+}

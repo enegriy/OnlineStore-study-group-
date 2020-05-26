@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Редактирование товаров</title>
+</head>
+<body class="container">
+    <form method="POST">
+        {% csrf_token %}
+        <p>
+            <label> Ввидите наименование товара</label><br>
+            <input type="text" name="name" value="{{Product1.name}}" />
+        </p>
+        <p>
+            <label>Введите стоимость товара</label><br>
+            <input type="number" name="price" value="{{Product1.price}}" />
+
+        </p>
+        <p>
+            <label> Добавьте описание товара</label><br>
+            <input type="text" name="Description" value="{{Product1.Description}}" />
+        </p>
+        <input type="submit" value="Сохранить" >
+    </form>
+</body>
+</html>
