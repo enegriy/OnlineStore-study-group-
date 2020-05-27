@@ -5,8 +5,9 @@ from django.urls import reverse
 from django.contrib.auth.models import User
 
 
+
 class LoginView(TemplateView):
-    template_name = "template/registration/login.html"
+    template_name = "registration/login.html"
 
     def dispatch(self, request, *args, **kwargs):
         context = {}
@@ -23,11 +24,11 @@ class LoginView(TemplateView):
 
 
 class ProfilePage(TemplateView):
-    template_name = "template/registration/profile.html"
+    template_name = "registration/profile.html"
 
 
 class RegisterView(TemplateView):
-    template_name = "template/registration/register.html"
+    template_name = "registration/register.html"
 
     def dispatch(self, request, *args, **kwargs):
         if request.method == 'POST':

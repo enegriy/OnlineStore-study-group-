@@ -2,11 +2,14 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+
     <title>Title</title>
 </head>
 <body>
+
     <h1>Регистрация</h1>
     <form method="post">
+        {% csrf_token %}
         Имя пользователя: <input type="text" name="username"><br>
         Email: <input type="email" name="email"><br>
         Пароль: <input type="password" name="password"><br>

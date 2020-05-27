@@ -20,7 +20,7 @@ from Product import views as tru
 from OnlineStore.views import LoginView
 from OnlineStore.views import ProfilePage, RegisterView
 
-urlpatterns = {
+urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/login', LoginView.as_view(), name="login"),
     path('accounts/profile', ProfilePage.as_view(), name="profile"),
@@ -29,6 +29,7 @@ urlpatterns = {
     path('Product/', tru.Goods),
     path('Product/create/', tru.create),
     path('Product/edit/<int:id>/', tru.edit),
-    path('Product/delete/<int:id>/', tru.delete),
+    path('Product/delete/<int:id>/', tru.delete)
+    ]
 
-}
+
