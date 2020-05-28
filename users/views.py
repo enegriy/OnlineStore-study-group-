@@ -1,5 +1,5 @@
 from django.views.generic import TemplateView
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import redirect, render
 from django.urls import reverse
 from django.contrib.auth.models import User
@@ -46,3 +46,10 @@ class RegisterView(TemplateView):
 
 def index(request):
     return render(request, "index.html")
+
+
+
+
+class logoutview(TemplateView):
+    def logoutview(request):
+        logout(request)
