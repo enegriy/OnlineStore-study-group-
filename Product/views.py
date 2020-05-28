@@ -7,7 +7,7 @@ from Product.models import Product
 
 def Goods(request):
     Goods = Product.objects.all()
-    return render(request, "Product/index.html", {"Goods": Goods})
+    return render(request, "../templates/Product/index.html", {"Goods": Goods})
 
 
 def create(request):
@@ -37,7 +37,7 @@ def edit(request, id):
             Product1.save()
             return HttpResponseRedirect("/")
         else:
-            return render(request, "Product/edit.html", {"Product1": Product1})
+            return render(request, "../templates/Product/edit.html", {"Product1": Product1})
     except Product.DoesNotExist:
         return HttpResponseNotFound("<h2>Товар не найден</h2>")
 
