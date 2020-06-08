@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-</head>
+{% extends "index.html" %}
+{% block title %}Вход пользователя{% endblock %}
+{% block content %}
+
 <body>
     <h1>Вход на сайт</h1>
     {% if error %}
@@ -17,4 +15,4 @@
     </form>
 
 </body>
-</html>
+{% endblock %}

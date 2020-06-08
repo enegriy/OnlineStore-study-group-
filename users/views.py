@@ -49,7 +49,3 @@ def index(request):
 
 
 
-
-class logoutview(TemplateView):
-    def logoutview(request):
-        logout(request)

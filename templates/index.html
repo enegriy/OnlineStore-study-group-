@@ -1,16 +1,49 @@
 <!DOCTYPE html>
- {% load static %}
+{% load static %}
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title><h1>Наш интернет магазин товаров</h1></title>
+
+    <title>{% block title %}Наш интернет магазин товаров{% endblock %}</title>
 </head>
+<style>
+     body {
+    background-image: url('{% static "23.jpg"%}');
+         background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    margin: auto;
+     }
+</style>
 <body>
     <meta charset="UTF-8">
      <label><h1>Наш интернет магазин товаров</h1></label>
-         <h1> <a href="Product/">Наши товары</a>  </h1>
-<td><a href="accounts/login">Вход</a> | <a href="accounts/register">Регистрация</a></td>
-<img src="{% static "23.jpg" %}"</img>
+      {% if user.is_authenticated %}
+    <p>Здарово, {{ user.username }}. Спасибо что зашел.</p>
+{% else %}
+    <p>Привет покупатель заходи или регистрируйся.</p>
+{% endif %}
+    {% if user.username %}
+    <a href="{% url 'logout' %}">Выйти</a>
+    {% else %}
+    <a href="{% url 'login' %}">Войти</a>|<a href="{% url 'register' %}">Регистрация</a>
+{% endif %}
 
+
+    </body>
+<body>
+        {% block sidebar %}
+        <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="{% url 'Product' %}">Товары</a></li>
+            <li><a href="{% url 'create_Product' %}">Добавить товар</a></li>
+
+        </ul>
+        {% endblock %}
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
 </body>
+
 </html>

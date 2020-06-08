@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+{% extends "index.html" %}
+{% block title %}Регистрация пользователя{% endblock %}
+{% block content %}
 <body>
     <h1>Регистрация</h1>
     <form method="post">
@@ -16,4 +13,4 @@
         <input type="submit" value="Регистрация">
     </form>
 </body>
-</html>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "index.html" %}
+
+{% block title %}Сщздание товара{% endblock %}
+
+{% block content %}
+<body class="container">
+{% if user.is_authenticated %}
+      <form method="POST" action="">
+        {% csrf_token %}
+        <p>
+            <label>Название товара</label><br>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label>Цена</label><br>
+            <input type="number" name="price" />
+        </p>
+         <p>
+            <label>Описание товара</label><br>
+            <input type="text" name="Description" />
+        </p>
+        <input type="submit" value="Сохранить" >
+      </form>
+    {% else %}
+    <a href="{% url 'register' %}">Для добавления товара необходимо зарегистрироваться регистрируйся.</a>
+    {% endif %}
+    </body>
+{% endblock %}
+

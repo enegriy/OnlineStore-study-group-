@@ -7,7 +7,7 @@ from Product.models import Product
 
 def Goods(request):
     Goods = Product.objects.all()
-    return render(request, "../templates/Product/index.html", {"Goods": Goods})
+    return render(request, "../templates/Product/Product.html", {"Goods": Goods})
 
 
 def create(request):
@@ -25,6 +25,8 @@ def create(request):
         else:
             Product1.save()
         return HttpResponseRedirect("/")
+    else:
+        return render(request, "../templates/Product/create.html")
 
 def edit(request, id):
     try:

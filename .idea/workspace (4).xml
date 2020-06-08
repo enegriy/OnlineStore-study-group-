@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71a20720-79d7-4618-a836-98ee39f1fcf7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/OnlineStore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStore/templates/registration/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStore/templates/registration/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStore/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStore/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStore/templates/registration/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStore/templates/registration/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStore/templates/registration/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStore/templates/registration/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStore/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStore/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Product/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="XblSHNIK &lt;65400361+xblshnik@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="XblSHNIK" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="OnlineStore-study-group-" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Admin\Documents\yandex disc\YandexDisk\OnlineStore-study-group-\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cRDBx5bLpzjNFnE17e1hKY8C5o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\yandex disc\YandexDisk\OnlineStore-study-group-\Product\templates" />
+      <recent name="C:\Users\Admin\Documents\yandex disc\YandexDisk\OnlineStore-study-group-\OnlineStore\templates" />
+      <recent name="C:\Users\Admin\Documents\yandex disc\YandexDisk\OnlineStore-study-group-\Product" />
+      <recent name="C:\Users\Admin\Documents\yandex disc\YandexDisk\OnlineStore-study-group-\templates\Product" />
+      <recent name="C:\Users\Admin\Documents\yandex disc\YandexDisk\OnlineStore-study-group-" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="OnlineStore-study-group-" type="Python.DjangoServer" factoryName="Django server">
+      <module name="OnlineStore-study-group-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="OnlineStore.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Admin\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="5000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Admin\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71a20720-79d7-4618-a836-98ee39f1fcf7" name="Default Changelist" comment="" />
+      <created>1590482381607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590482381607</updated>
+      <workItem from="1590482388560" duration="409000" />
+      <workItem from="1590482884370" duration="310000" />
+      <workItem from="1590485252001" duration="280000" />
+      <workItem from="1590485829472" duration="1198000" />
+      <workItem from="1590487481260" duration="1769000" />
+      <workItem from="1590489294821" duration="218000" />
+      <workItem from="1590489528391" duration="8270000" />
+      <workItem from="1590519234331" duration="5585000" />
+      <workItem from="1590526053772" duration="113000" />
+    </task>
+    <task id="LOCAL-00001" summary="43">
+      <created>1590487658469</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590487658469</updated>
+    </task>
+    <task id="LOCAL-00002" summary="43">
+      <created>1590487822344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590487822344</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gf">
+      <created>1590488802859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590488802859</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Свои собрал в отдельное приложение">
+      <created>1590490704670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590490704670</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Свои собрал в отдельное приложение">
+      <created>1590494035011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590494035011</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Чють чють доделал чтобы с пустыми полями не падал при создании">
+      <created>1590494129332</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590494129332</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Исправил редактирование">
+      <created>1590522295327</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590522295327</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Исправил редактирование">
+      <created>1590525642416</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590525642416</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../OnlineStore-study-group-2222" />
+    </ignored-roots>
+    <MESSAGE value="43" />
+    <MESSAGE value="gf" />
+    <MESSAGE value="Свои собрал в отдельное приложение" />
+    <MESSAGE value="Чють чють доделал чтобы с пустыми полями не падал при создании" />
+    <MESSAGE value="Исправил редактирование" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил редактирование" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="232" y="153" key="#Inspections" timestamp="1590585305808">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="153" key="#Inspections/0.0.1280.984@0.0.1280.984" timestamp="1590585305808" />
+    <state x="259" y="139" key="#Notifications" timestamp="1590487994522">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="259" y="139" key="#Notifications/0.0.1280.984@0.0.1280.984" timestamp="1590487994522" />
+    <state x="427" y="25" key="#OnlineStore-study-group-" timestamp="1590519973925">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="400" y="115" key="#OnlineStore-study-group-/0.0.1280.984@0.0.1280.984" timestamp="1590482422621" />
+    <state x="427" y="25" key="#OnlineStore-study-group-/0.0.1366.728@0.0.1366.728" timestamp="1590519973925" />
+    <state x="188" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590489210156">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="188" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1590489210156" />
+    <state x="518" y="377" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1590588625281">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="518" y="377" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.984@0.0.1280.984" timestamp="1590588625281" />
+    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1590525637890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="210" y="76" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1590494128680" />
+    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590525637890" />
+    <state x="147" y="66" key="DiffContextDialog" timestamp="1590489601567">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="147" y="66" key="DiffContextDialog/0.0.1280.984@0.0.1280.984" timestamp="1590489601567" />
+    <state x="477" y="164" key="FileChooserDialogImpl" timestamp="1590520385862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="447" y="222" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1590490632352" />
+    <state x="477" y="164" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590520385862" />
+    <state x="431" y="357" width="483" height="242" key="Github.CreatePullRequestDialog" timestamp="1590488637985">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="431" y="357" width="483" height="242" key="Github.CreatePullRequestDialog/0.0.1280.984@0.0.1280.984" timestamp="1590488637985" />
+    <state x="504" y="376" key="Github.ShareDialog" timestamp="1590485620738">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="504" y="376" key="Github.ShareDialog/0.0.1280.984@0.0.1280.984" timestamp="1590485620738" />
+    <state width="1237" height="240" key="GridCell.Tab.0.bottom" timestamp="1590589276945">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="240" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1590589276945" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590526190516" />
+    <state width="1237" height="240" key="GridCell.Tab.0.center" timestamp="1590589276945">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="240" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1590589276945" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590526190516" />
+    <state width="1237" height="240" key="GridCell.Tab.0.left" timestamp="1590589276945">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="240" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1590589276945" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590526190516" />
+    <state width="1237" height="240" key="GridCell.Tab.0.right" timestamp="1590589276945">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="240" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1590589276945" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590526190516" />
+    <state x="343" y="191" key="RollbackChangesDialog" timestamp="1590489198196">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="343" y="191" key="RollbackChangesDialog/0.0.1280.984@0.0.1280.984" timestamp="1590489198196" />
+    <state x="97" y="0" key="SettingsEditor" timestamp="1590525774230">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="170" y="123" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1590489478303" />
+    <state x="97" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590525774230" />
+    <state x="276" y="158" key="Vcs.Push.Dialog.v2" timestamp="1590525650866">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="259" y="214" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1590494134746" />
+    <state x="276" y="158" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590525650866" />
+    <state x="298" y="207" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1590488592546">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="298" y="207" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1280.984@0.0.1280.984" timestamp="1590488592546" />
+    <state x="137" y="106" width="1060" height="744" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590485603086">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="137" y="106" width="1060" height="744" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.984@0.0.1280.984" timestamp="1590485603086" />
+    <state x="375" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1590489532236">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="375" y="305" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1590489532236" />
+    <state x="478" y="405" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590566448921">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="478" y="405" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.984@0.0.1280.984" timestamp="1590566448921" />
+    <state x="356" y="281" key="git4idea.merge.GitMergeDialog" timestamp="1590488522281">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="356" y="281" key="git4idea.merge.GitMergeDialog/0.0.1280.984@0.0.1280.984" timestamp="1590488522281" />
+    <state x="347" y="281" key="git4idea.merge.GitPullDialog" timestamp="1590488010940">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="347" y="281" key="git4idea.merge.GitPullDialog/0.0.1280.984@0.0.1280.984" timestamp="1590488010940" />
+    <state x="372" y="357" key="git4idea.rebase.GitRebaseDialog" timestamp="1590489327954">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="372" y="357" key="git4idea.rebase.GitRebaseDialog/0.0.1280.984@0.0.1280.984" timestamp="1590489327954" />
+    <state x="408" y="222" key="git4idea.rebase.GitRebaseEditor" timestamp="1590489333419">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="408" y="222" key="git4idea.rebase.GitRebaseEditor/0.0.1280.984@0.0.1280.984" timestamp="1590489333419" />
+    <state x="366" y="387" key="git4idea.ui.GitStashDialog" timestamp="1590489504662">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="366" y="387" key="git4idea.ui.GitStashDialog/0.0.1280.984@0.0.1280.984" timestamp="1590489504662" />
+    <state x="366" y="335" key="git4idea.ui.GitTagDialog" timestamp="1590488514255">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="366" y="335" key="git4idea.ui.GitTagDialog/0.0.1280.984@0.0.1280.984" timestamp="1590488514255" />
+    <state x="200" y="133" key="svn.repositoryBrowser" timestamp="1590520270843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="187" y="180" key="svn.repositoryBrowser/0.0.1280.984@0.0.1280.984" timestamp="1590489490434" />
+    <state x="200" y="133" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1590520270843" />
+    <state x="148" y="244" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1590488888902">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="148" y="244" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1280.984@0.0.1280.984" timestamp="1590488888902" />
+  </component>
+</project>
