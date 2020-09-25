@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block title %}говорящий том{% endblock %}
+
+{% block content %}
+
+ <h1>Сам товар: {{ product.name }}</h1>
+     Описание товара: {{product.Description}}
+
+<p class="price">Стоимость: ${{ product.price }}</p>
+<form action="{% url "cart:cart_add" product.id %}" method="post">
+    {{ cart_product_form }}
+    {% csrf_token %}
+    <input type="submit" value="Добавить в корзину">
+</form>
+
+{% endblock %}

@@ -45,5 +45,17 @@
         {% block content %}{% endblock %}
     </div>
 </body>
-
+<div class="cart">
+    {% with total_items=cart|length %}
+        {% if cart|length > 0 %}
+            Моя корзина:
+            <a href="{% url "cart:cart_detail" %}">
+                 Количество товаров {{ total_items }} Сумма ,
+                ${{ cart.get_total_price }}
+            </a>
+        {% else %}
+            Ваша корзина пустая.
+        {% endif %}
+    {% endwith %}
+</div>
 </html>
